@@ -1,5 +1,3 @@
-/// <reference types="vitest" />
-
 import path from 'path'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
@@ -46,9 +44,4 @@ export default defineConfig({
     // see unocss.config.ts for config
     Unocss(),
   ],
-
-  // https://github.com/vitest-dev/vitest
-  test: {
-    environment: 'jsdom',
-  },
 })
